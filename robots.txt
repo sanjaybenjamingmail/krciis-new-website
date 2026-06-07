@@ -1,0 +1,12 @@
+# robots.txt for krciis.com
+# Generated: 2026-06-07
+
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap
+Sitemap: https://www.krciis.com/sitemap.xml
+
+# Disallow any admin or private paths (none currently, but good practice)
+Disallow: /admin/
+Disallow: /private/
